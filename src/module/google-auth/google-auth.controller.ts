@@ -5,9 +5,6 @@ import { GoogleAuthService } from './google-auth.service';
 @ApiTags('Google Auth')
 @Controller('google')
 export class GoogleAuthController {
-  // getHello(): any {
-  //   throw new Error('Method not implemented.');
-  // }
   constructor(private readonly googleAuthService: GoogleAuthService) {}
 
   @Get()

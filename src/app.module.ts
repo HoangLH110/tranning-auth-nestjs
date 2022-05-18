@@ -14,7 +14,7 @@ import { CaslModule } from './module/casl/casl.module';
 @Module({
   imports: [
     ConfigModule.forRoot({
-      isGlobal: true, // no need to import into other modules
+      isGlobal: true,
     }),
     TypeOrmModule.forRoot(typeOrmConfig),
     UsersModule,
