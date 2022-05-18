@@ -16,7 +16,6 @@ import { User } from '../users/entities/user.entity';
 import { AuthService } from './auth.service';
 import { LoginDto, RegisterForUserDto } from './dto/auth.dto';
 import { JwtAuthGuard } from './guards/jwt-auth.guard';
-import { LocalAuthGuard } from './guards/local.guard';
 
 @UseInterceptors(ClassSerializerInterceptor)
 @Controller('auth')
